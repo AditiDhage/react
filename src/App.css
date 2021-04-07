@@ -1,0 +1,88 @@
+.App {
+  margin: 2em;
+}
+
+.button {
+  background-color: #63c0c0;
+  border: none;
+  color: white;
+  padding: 15px 32px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-toggled {
+  background-color: #fa993e;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn-capital-hide {
+  background-color: #777;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: min-content;
+}
+
+.btn-capital-show {
+  background-color: #2947B6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: min-content;
+}
+
+.menu {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: 1fr 1fr 2fr;
+  font-size: large;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.rows {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: 1fr 1fr 6fr;
+  font-size: large;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.rows-item:hover {
+ color: #2947B6;
+ text-decoration: underline;
+}
+
+.menu-item:hover {
+ color: #2947B6;
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+.covid19-container {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border: 1px solid #ccc;
+}
